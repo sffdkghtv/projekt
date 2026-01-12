@@ -1,6 +1,5 @@
 import streamlit as st
-from supabase import create_client, Client
-
+from supabase import create_client
 # --- KONFIGURACJA POŁĄCZENIA ---
 # Wklej tutaj swoje dane z panelu Supabase
 URL = "TWOJ_ADRES_URL_Z_SUPABASE"
