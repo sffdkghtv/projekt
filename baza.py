@@ -150,4 +150,4 @@ with tab4:
                 except Exception as e:
                     st.error("Nie można usunąć kategorii (prawdopodobnie zawiera produkty).")
         else:
-            st.info("B
+            st.info("Brak kategorii do usunięcia.")
