@@ -2,8 +2,8 @@ import streamlit as st
 from supabase import create_client, Client
 # --- KONFIGURACJA POŁĄCZENIA ---
 # Wklej tutaj swoje dane z panelu Supabase
-URL = https://opnoncvsjvmzsbimtgww.supabase.co
-KEY = "TWOJ_KLUCZ_ANON_PUBLIC"
+URL = "https://opnoncvsjvmzsbimtgww.supabase.co"
+KEY = "sb_publishable__RETIuoreizHaYlDnRsxLw_SnjX9du9"
 
 @st.cache_resource
 def init_connection():
